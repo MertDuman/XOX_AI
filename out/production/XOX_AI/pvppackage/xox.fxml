@@ -1,0 +1,31 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<GridPane fx:controller="pvppackage.XoXController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="0" vgap="0"
+          gridLinesVisible="false" stylesheets="@xox.css">
+    <Button fx:id="button1" id="button1" text="" GridPane.rowIndex="0" GridPane.columnIndex="0"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button2" id="button1" text="" GridPane.rowIndex="0" GridPane.columnIndex="1"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button3" id="button1" text="" GridPane.rowIndex="0" GridPane.columnIndex="2"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button4" id="button1" text="" GridPane.rowIndex="1" GridPane.columnIndex="0"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button5" id="button1" text="" GridPane.rowIndex="1" GridPane.columnIndex="1"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button6" id="button1" text="" GridPane.rowIndex="1" GridPane.columnIndex="2"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button7" id="button1" text="" GridPane.rowIndex="2" GridPane.columnIndex="0"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button8" id="button1" text="" GridPane.rowIndex="2" GridPane.columnIndex="1"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Button fx:id="button9" id="button1" text="" GridPane.rowIndex="2" GridPane.columnIndex="2"
+            prefWidth="100" prefHeight="100" onAction="#handleButtonClick"/>
+    <Text fx:id="playerText" id="playerText" GridPane.rowIndex="3" GridPane.columnIndex="1">
+        <GridPane.margin>
+            <Insets left="23"/>
+        </GridPane.margin>
+    </Text>
+</GridPane>

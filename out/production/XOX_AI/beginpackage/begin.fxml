@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="beginpackage.BeginController">
+    <padding>
+        <Insets left="100" right="100" top="150"/>
+    </padding>
+    <left>
+        <Button fx:id="PvPButton" id="PvPButton" text="Player vs Player"
+                prefWidth="150" prefHeight="100" onAction="#playPvP"/>
+    </left>
+
+    <right>
+        <Button fx:id="PvEButton" id="PvEButton" text="Player vs AI"
+                prefWidth="150" prefHeight="100" onAction="#playPvE"/>
+    </right>
+
+</BorderPane>
