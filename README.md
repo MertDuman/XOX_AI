@@ -13,3 +13,5 @@
  * It will still not lose, but will not follow the same pattern all the time.
  * As already stated, it's a 'non-losing' AI, meaning it won't plan to win (but still win if given the chance) but to draw.
  * Enjoy.
+ 
+ Edit: Executable jar file can be found at out/artifacts/XOX_AI_jar
